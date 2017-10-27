@@ -1,6 +1,4 @@
-<!--<h3><b>Colorful Image Colorization</b></h3>-->
-## <b>Colorful Image Colorization</b> [[Project Page]](http://richzhang.github.io/colorization/) <br>
-[Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In [ECCV, 2016](http://arxiv.org/pdf/1603.08511.pdf).
+## <b>Colorful Image Colorization</b> 
 
 ![Teaser Image](http://richzhang.github.io/colorization/resources/images/teaser4.jpg)
 
@@ -20,9 +18,6 @@ This repository contains:
 
 <b>Appendices</b>
  - (A) Related follow-up work
-
-### Clone this repository ###
-Clone the master branch of the respository using `git clone -b master --single-branch https://github.com/richzhang/colorization.git`
 
 ### Dependencies ###
 This code requires a working installation of [Caffe](http://caffe.berkeleyvision.org/) and basic Python libraries (numpy, pyplot, skimage, scipy). For guidelines and help with installation of Caffe, consult the [installation guide](http://caffe.berkeleyvision.org/) and [Caffe users group](https://groups.google.com/forum/#!forum/caffe-users).
@@ -117,6 +112,10 @@ We use [Fast R-CNN](https://github.com/rbgirshick/fast-rcnn) with multi-scale tr
 Interactive Colorization: <b>Real-Time User-Guided Image Colorization with Learned Deep Priors.</b> R. Zhang*, J.Y. Zhu*, P. Isola, X. Geng, A. S. Lin, T. Yu, A. A. Efros. In CVPR, 2017. [Website](https://richzhang.github.io/ideepcolor/)[GitHub](https://github.com/junyanz/ideepcolor)
 
 Representation Learning: <b>Split-Brain Autoencoders: Unsupervised Prediction by Cross-Channel Prediction.</b> R. Zhang, P. Isola, A. A. Efros. In SIGGRAPH, 2017. [Website](https://richzhang.github.io/splitbrainauto/)[GitHub](https://github.com/richzhang/splitbrainauto)
+
+## Undergoing Extension ##
+
+Contextual Colorization: Given contextual images (e.g. frame prior and frame after, colored), be able to produce more accurate recolorization. 
 
 ### Citation ###
 If you find this model useful for your resesarch, please use this [bibtex](http://richzhang.github.io/colorization/resources/bibtex_eccv2016_colorization.txt) to cite.

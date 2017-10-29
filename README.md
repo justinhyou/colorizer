@@ -117,8 +117,5 @@ Representation Learning: <b>Split-Brain Autoencoders: Unsupervised Prediction by
 
 Contextual Colorization: Given contextual images (e.g. frame prior and frame after, colored), be able to produce more accurate recolorization. 
 
-### Citation ###
-If you find this model useful for your resesarch, please use this [bibtex](http://richzhang.github.io/colorization/resources/bibtex_eccv2016_colorization.txt) to cite.
-
 ### Misc ###
-Contact Richard Zhang at rich.zhang at eecs.berkeley.edu for any questions or comments.
+Contact Hyobin You at hyobinyou@gmail.com for any questions or comments.
